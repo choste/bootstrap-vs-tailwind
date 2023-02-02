@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Tailwind</title>
+  </head>
+  <body>
+    <h1 class="text-4xl">Hello, world!</h1>
+
+    <main>
+      <button
+        type="button"
+        class="rounded bg-blue-500 py-1.5 px-3 text-base text-white hover:bg-blue-600"
+        >Primary</button
+      >
+      <button
+        type="button"
+        class="rounded bg-gray-500 py-1.5 px-3 text-base text-white hover:bg-gray-600"
+        >Secondary</button
+      >
+      <button
+        type="button"
+        class="rounded bg-green-500 py-1.5 px-3 text-base text-white hover:bg-green-600"
+        >Success</button
+      >
+      <button
+        type="button"
+        class="rounded bg-red-500 py-1.5 px-3 text-base text-white hover:bg-red-600"
+        >Danger</button
+      >
+      <button
+        type="button"
+        class="rounded bg-yellow-500 py-1.5 px-3 text-base hover:bg-yellow-600"
+        >Warning</button
+      >
+      <button
+        type="button"
+        class="rounded bg-cyan-500 py-1.5 px-3 text-base text-white hover:bg-cyan-600"
+        >Info</button
+      >
+      <button
+        type="button"
+        class="rounded bg-gray-200 py-1.5 px-3 text-base hover:bg-gray-300"
+        >Light</button
+      >
+      <button
+        type="button"
+        class="rounded bg-gray-700 py-1.5 px-3 text-base text-white hover:bg-gray-900"
+        >Dark</button
+      >
+      <button
+        type="button"
+        class="rounded py-1.5 px-3 text-base text-blue-500 hover:text-blue-600 hover:underline"
+        >Link</button
+      >
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+</style>
